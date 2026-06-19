@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@source "../index.html";
+
+@layer base {
+  html,
+  body {
+    font-family: "DM Sans", sans-serif;
+    color: #1f271b;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Cormorant Infant", serif;
+    color: #12170f;
+  }
+}
