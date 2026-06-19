@@ -4,46 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page</title>
+    <title>SRK Team Star</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link href="./src/output.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1d0b7b64ec.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="secondary">
-    <header class="flex items-center justify-between h-10 w-full bg-white">
-        <div class="text-[#12170f] h-[40px] px-2 flex items-center">
-            <a href="#"><i class="fa-solid fa-bars"></i></a>
+<body class="bg-[#ffffff] text-[#1f271b]">
+    <header class="flex h-10 w-full items-center justify-between bg-white">
+        <div class="flex h-10 items-center px-2 text-[#12170f]">
+            <a href="#" aria-label="Open menu"><i class="fa-solid fa-bars"></i></a>
         </div>
-        <h1><img src="./assets/logo-bg-removed.png" alt="" class="h-[40px]"></h1>
-        <div class="text-[#12170f] h-[40px] px-2 flex items-center">
-            <a href="#"><i class="fa-solid fa-shop"></i></a>
+        <h1>
+            <img src="./assets/logo-bg-removed.png" alt="SRK Team Star logo" class="h-10">
+        </h1>
+        <div class="flex h-10 items-center px-2 text-[#12170f]">
+            <a href="#" aria-label="Open store"><i class="fa-solid fa-shop"></i></a>
         </div>
     </header>
 
     <main>
-        <section
-            class="hero-section bg-[url('./assets/hero-mobile.png')] bg-cover bg-no-repeat bg-center w-full h-[223px] md:bg-[url('/assets/hero-desktop.png')] md:bg-cover md:h-[600px] flex flex-col items-start justify-center gap-2">
-            <div class="w-[175px] text-left text-[16px] font-semibold leading-tight ml-10 text-[#12170f] tracking-wide">
+        <section class="hero-section flex h-[223px] w-full flex-col items-start justify-center gap-2 bg-[url('../assets/hero-mobile.png')] bg-cover bg-center bg-no-repeat">
+            <div class="ml-10 w-[175px] text-left text-[16px] font-semibold leading-tight tracking-wide text-[#12170f]">
                 <h2>Precision Engineering for High-Volume Frame Manufacturing</h2>
             </div>
-            <div class="hero-para-text w-[175px] text-left text-[10px] ml-10 text-[#1f271b] tracking-wide">
+            <div class="hero-para-text ml-10 w-[175px] text-left text-[10px] tracking-wide text-[#1f271b]">
                 <p>Industrial-grade cutters, molders, and pinners designed to reduce labor costs and boost output.</p>
             </div>
-            <div
-                class="main-button text-center w-[125px] h-[25px] text-[10px] rounded-[2px] ml-10 flex items-center justify-center bg-[#d4af37] text-[#f1f5f9] tracking-wide">
+            <div class="main-button ml-10 flex h-[25px] w-[125px] items-center justify-center rounded-[2px] bg-[#d4af37] text-center text-[10px] tracking-wide">
                 <a href="#">Explore the Machinery</a>
             </div>
-            <div
-                class="secondary-button text-center w-[110px] h-[20px] text-[8px] underline ml-10 flex items-center justify-center text-[#1f271b] tracking-wide">
+            <div class="secondary-button ml-10 flex h-[20px] w-[110px] items-center justify-center text-center text-[8px] underline tracking-wide text-[#1f271b]">
                 <a href="#">Visit Our Store</a>
             </div>
         </section>
 
-        <section
-            class="statistics-counter flex h-[75px] w-full items-center justify-center gap-2 bg-[#ffffff] text-[#12170f]">
+        <section class="statistics-counter flex h-[75px] w-full items-center justify-center gap-2 bg-[#ffffff] text-[#12170f]">
             <div class="flex w-[125px] flex-col items-center justify-center">
                 <h3 class="text-[12px] font-semibold text-[#420c14]">238+</h3>
                 <p class="text-center text-[10px]">ACTIVE INSTALLATIONS</p>
@@ -58,33 +55,47 @@
             </div>
         </section>
 
-        <section class="under-the-hood">
-
-        </section>
-
-        <section class="what-we-offer">
-            <div class="text-container">
-                <h2 class="text-[16px] font-semibold text-[#12170f]">What We Offer</h2>
-                <section>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </section>
-
+        <section class="under-the-hood px-4 py-6">
+            <h3 class="mb-3 text-[18px] font-semibold">Under the Hood</h3>
+            <div class="video-container h-[220px] w-full overflow-hidden rounded-md">
+                <div class="flex h-full items-center justify-center text-sm">Video placeholder</div>
             </div>
         </section>
 
-        <section class="upcoming-projects">
-
+        <section class="what-we-offer w-full px-4 py-6">
+            <h3 class="mb-3 text-[18px] font-semibold">What We Offer</h3>
+            <div class="card-container flex flex-col gap-3 pb-2 md:flex-row">
+                <div class="h-[260px] w-full rounded-md bg-[url('../assets/machine-card-mobile.png')] bg-cover bg-center bg-no-repeat">
+                    <div class="flex h-full items-end rounded-md bg-linear-to-t from-[#0f172a] to-transparent p-4">
+                        <p class="text-sm text-white">Frame Molding Systems</p>
+                    </div>
+                </div>
+                <div class="h-[260px] w-full rounded-md bg-[url('../assets/hardware-card-mobile.png')] bg-cover bg-center bg-no-repeat">
+                    <div class="flex h-full items-end rounded-md bg-linear-to-t from-[#0f172a] to-transparent p-4">
+                        <p class="text-sm text-white">Hardware Solutions</p>
+                    </div>
+                </div>
+                <div class="h-[260px] w-full rounded-md bg-[url('../assets/frame-molding-card-mobile.png')] bg-cover bg-center bg-no-repeat">
+                    <div class="flex h-full items-end rounded-md bg-linear-to-t from-[#0f172a] to-transparent p-4">
+                        <p class="text-sm text-white">Frame Molding Services</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="conversion-hub">
+        <section class="upcoming-projects px-4 py-6">
+            <h3 class="mb-3 text-[18px] font-semibold">Upcoming Projects</h3>
+            <div class="h-[180px] w-full rounded-md bg-[#e5e7eb]"></div>
+        </section>
 
+        <section class="conversion-hub px-4 py-6">
+            <h3 class="mb-3 text-[18px] font-semibold">Conversion Hub</h3>
+            <div class="h-[180px] w-full rounded-md bg-[#f1e7bf]"></div>
         </section>
     </main>
 
-    <footer>
-
+    <footer class="px-4 py-6 text-center text-sm text-[#5b5b5b]">
+        © 2026 SRK Team Star
     </footer>
 </body>
 
